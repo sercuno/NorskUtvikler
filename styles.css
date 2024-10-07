@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: white;
+}
+
+.topbar {
+    overflow: hidden;
+    background-color: black;
+}
+
+.topbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topbar a:hover {  
+    color: black;
+    background-color: #ffffff;
+}
+
+.topbar a.aktive {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.topbar img {
+    float: right;
+    width: 40px;
+    height: auto;
+    margin-right: 16px;
+    margin-top: 10px;
+}
