@@ -1,0 +1,113 @@
+body {
+    min-height: 100vh;  
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column; 
+}
+
+.topbar {
+    overflow: hidden;
+    background-color: black;
+}
+
+.topbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topbar a:hover {  
+    color: black;
+    background-color: #ffffff;
+}
+
+.topbar a.aktive {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.topbar img {
+    float: right;
+    width: 40px;
+    height: auto;
+    margin-right: 16px;
+    margin-top: 10px;
+}
+
+footer {
+    margin-top: auto; 
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    width: 100%; 
+}
+
+.footer-container p {
+    color: white;
+    margin: 0; 
+}
+
+/* Forum Post Styles */
+ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px;
+}
+
+.row {
+    border-bottom: 1px solid #dddddd;
+    padding: 10px 0;
+}
+
+.bottom a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.bottom a:hover {
+    background-color: #f1f1f1;
+}
+
+.title {
+    font-size: 20px;
+    margin: 0;
+}
+
+.timestamp, .comments {
+    font-size: 14px;
+    color: #555;
+    margin: 0;
+}
+
+.pagination {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.pagination a {
+    text-decoration: none;
+    color: black;
+    padding: 8px 16px;
+    border: 1px solid #dddddd;
+    margin: 0 4px;
+    border-radius: 4px;
+}
+
+.pagination a:hover {
+    background-color: #dddddd;
+}
+
+.pagination a.active {
+    background-color: #04AA6D;
+    color: white;
+    border: none;
+}

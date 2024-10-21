@@ -1,7 +1,10 @@
 body {
+    min-height: 100vh;  
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     background-color: white;
+    display: flex;
+    flex-direction: column; 
 }
 
 .topbar {
@@ -35,3 +38,19 @@ body {
     margin-right: 16px;
     margin-top: 10px;
 }
+
+
+footer {
+    margin-top: auto; 
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    width: 100%; 
+}
+
+
+.footer-container p {
+    color: white;
+    margin: 0; 
+}
+
